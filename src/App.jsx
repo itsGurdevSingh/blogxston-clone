@@ -3,6 +3,7 @@ import MobileHeader from "./components/Header/MobileHeader";
 import MarqueeHeader from "./components/Header/MarqueeHeader";
 import HeroSection from "./components/Sections/HeroSection";
 import PostsSection from "./components/Sections/PostsSection";
+import Article from "./components/Sections/Article";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <MobileHeader />
         <HeroSection />
         <PostsSection />
+        <Article />
       </div>
     </div>
   );
